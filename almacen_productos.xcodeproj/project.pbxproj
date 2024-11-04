@@ -14,6 +14,12 @@
 		ABBBFC9C2CCE8DE200CFFEFD /* almacen_productos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABBBFC9A2CCE8DE200CFFEFD /* almacen_productos.xcdatamodeld */; };
 		ABBBFC9E2CCE8DE300CFFEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBBFC9D2CCE8DE300CFFEFD /* Assets.xcassets */; };
 		ABBBFCA12CCE8DE300CFFEFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBBFC9F2CCE8DE300CFFEFD /* LaunchScreen.storyboard */; };
+		FB0D93062CD939110008B48B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D93052CD939110008B48B /* UIColor.swift */; };
+		FB19FCFD2CCFEAF60084F4E2 /* ProductosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19FCFC2CCFEAF60084F4E2 /* ProductosViewController.swift */; };
+		FB19FCFF2CCFEB200084F4E2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19FCFE2CCFEB200084F4E2 /* DashboardViewController.swift */; };
+		FB19FD012CCFEB350084F4E2 /* AgregarProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19FD002CCFEB350084F4E2 /* AgregarProductoViewController.swift */; };
+		FB19FD032CCFEB4A0084F4E2 /* EditarProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19FD022CCFEB4A0084F4E2 /* EditarProductoViewController.swift */; };
+		FB19FD052CCFEB5C0084F4E2 /* DetalleProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19FD042CCFEB5C0084F4E2 /* DetalleProductoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		ABBBFC9D2CCE8DE300CFFEFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABBBFCA02CCE8DE300CFFEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABBBFCA22CCE8DE300CFFEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0D93052CD939110008B48B /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		FB19FCFC2CCFEAF60084F4E2 /* ProductosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosViewController.swift; sourceTree = "<group>"; };
+		FB19FCFE2CCFEB200084F4E2 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		FB19FD002CCFEB350084F4E2 /* AgregarProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarProductoViewController.swift; sourceTree = "<group>"; };
+		FB19FD022CCFEB4A0084F4E2 /* EditarProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarProductoViewController.swift; sourceTree = "<group>"; };
+		FB19FD042CCFEB5C0084F4E2 /* DetalleProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProductoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,12 @@
 				ABBBFC9F2CCE8DE300CFFEFD /* LaunchScreen.storyboard */,
 				ABBBFCA22CCE8DE300CFFEFD /* Info.plist */,
 				ABBBFC9A2CCE8DE200CFFEFD /* almacen_productos.xcdatamodeld */,
+				FB19FCFC2CCFEAF60084F4E2 /* ProductosViewController.swift */,
+				FB19FCFE2CCFEB200084F4E2 /* DashboardViewController.swift */,
+				FB19FD002CCFEB350084F4E2 /* AgregarProductoViewController.swift */,
+				FB19FD022CCFEB4A0084F4E2 /* EditarProductoViewController.swift */,
+				FB19FD042CCFEB5C0084F4E2 /* DetalleProductoViewController.swift */,
+				FB0D93052CD939110008B48B /* UIColor.swift */,
 			);
 			path = almacen_productos;
 			sourceTree = "<group>";
@@ -141,10 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB19FD052CCFEB5C0084F4E2 /* DetalleProductoViewController.swift in Sources */,
+				FB19FCFD2CCFEAF60084F4E2 /* ProductosViewController.swift in Sources */,
+				FB19FD032CCFEB4A0084F4E2 /* EditarProductoViewController.swift in Sources */,
+				FB19FCFF2CCFEB200084F4E2 /* DashboardViewController.swift in Sources */,
 				ABBBFC962CCE8DE200CFFEFD /* ViewController.swift in Sources */,
 				ABBBFC9C2CCE8DE200CFFEFD /* almacen_productos.xcdatamodeld in Sources */,
 				ABBBFC922CCE8DE200CFFEFD /* AppDelegate.swift in Sources */,
 				ABBBFC942CCE8DE200CFFEFD /* SceneDelegate.swift in Sources */,
+				FB19FD012CCFEB350084F4E2 /* AgregarProductoViewController.swift in Sources */,
+				FB0D93062CD939110008B48B /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

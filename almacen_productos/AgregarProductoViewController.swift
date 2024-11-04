@@ -1,29 +1,40 @@
-//
-//  AgregarProductoViewController.swift
-//  almacen_productos
-//
-//  Created by Mac21 on 28/10/24.
-//
-
 import UIKit
 
 class AgregarProductoViewController: UIViewController {
-
+    
+    @IBOutlet var txtNombreProducto: UITextField!
+    @IBOutlet var txtCategoriaProducto: UITextField!
+    @IBOutlet var txtCantidadProducto: UITextField!
+    @IBOutlet var txtPrecioProducto: UILabel!
+    
+    @IBOutlet var imageView: UIImageView!
+    
+    var anteriorVC = ViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    var cantidadV: Int = 0
+    var precioV: Double = 0
+    
+    @IBAction func agregarProducto(_ sender: Any) {
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let producto = Producto(context: context)
+        
+        producto.nombre = txtNombreProducto.text
+        producto.categoria = txtCategoriaProducto.text
+        if let cantidadText = txtCantidadProducto.text, let cantidadV = Int16(cantidadText) {
+            producto.cantidad = cantidadV
+        }
+        if let precioText = txtPrecioProducto.text, let precioV = Double(precioText) {
+            producto.precio = precioV
+        }
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        navigationController?.popViewController(animated: true)
+        
     }
-    */
-
+    
+    
 }
