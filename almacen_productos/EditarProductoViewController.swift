@@ -82,6 +82,10 @@ class EditarProductoViewController: UIViewController, UIImagePickerControllerDel
             producto.precio = precioV
         }
         
+        if let selectedImage = imageView.image {
+            producto.imagen = selectedImage.jpegData(compressionQuality: 1.0)
+        }
+        
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
         

@@ -20,15 +20,16 @@ class DetalleProductoViewController: UIViewController {
         if let producto = producto {
             txtNombre.text = producto.nombre
             txtCategoria.text = producto.categoria
-            txtPrecio.text = "S/." + String(producto.precio)
+            txtPrecio.text = String(format: "S/. %.2f", producto.precio)
             txtDescripcion.text = producto.descripcion
             
             if let imageData = producto.imagen, let image = UIImage(data: imageData) {
-                    imageView.image = image
-                } else {
-                    imageView.image = nil
-                }
+                imageView.image = image
+            } else {
+                imageView.image = nil
+            }
         }
+        
         // DISEÑO
         
         let contentView = ContentView()
