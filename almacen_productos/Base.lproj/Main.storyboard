@@ -578,6 +578,9 @@
                     <navigationItem key="navigationItem" id="STn-yv-ANH">
                         <barButtonItem key="rightBarButtonItem" image="camera" catalog="system" id="Y56-tf-pds">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="agregarImagen:" destination="xwo-ky-3i2" id="5wO-NF-7yH"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
