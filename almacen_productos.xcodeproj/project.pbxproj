@@ -21,6 +21,14 @@
 		FB19FD032CCFEB4A0084F4E2 /* EditarProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19FD022CCFEB4A0084F4E2 /* EditarProductoViewController.swift */; };
 		FB19FD052CCFEB5C0084F4E2 /* DetalleProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19FD042CCFEB5C0084F4E2 /* DetalleProductoViewController.swift */; };
 		FBB5E53F2CDAD3170057176E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5E53E2CDAD3170057176E /* TableViewCell.swift */; };
+		FBFA56002CDBCF6F00C2A9AA /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = FBFA55FF2CDBCF6F00C2A9AA /* DGCharts */; };
+		FBFA56022CDBCF6F00C2A9AA /* DGChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FBFA56012CDBCF6F00C2A9AA /* DGChartsDynamic */; };
+		FBFA56042CDBD26A00C2A9AA /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = FBFA56032CDBD26A00C2A9AA /* DGCharts */; };
+		FBFA56062CDBD26A00C2A9AA /* DGChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FBFA56052CDBD26A00C2A9AA /* DGChartsDynamic */; };
+		FBFA56082CDBD35F00C2A9AA /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = FBFA56072CDBD35F00C2A9AA /* DGCharts */; };
+		FBFA560A2CDBD35F00C2A9AA /* DGChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FBFA56092CDBD35F00C2A9AA /* DGChartsDynamic */; };
+		FBFA560C2CDBD44300C2A9AA /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = FBFA560B2CDBD44300C2A9AA /* DGCharts */; };
+		FBFA560E2CDBD44300C2A9AA /* DGChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FBFA560D2CDBD44300C2A9AA /* DGChartsDynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +55,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBFA56062CDBD26A00C2A9AA /* DGChartsDynamic in Frameworks */,
+				FBFA56022CDBCF6F00C2A9AA /* DGChartsDynamic in Frameworks */,
+				FBFA56082CDBD35F00C2A9AA /* DGCharts in Frameworks */,
+				FBFA56042CDBD26A00C2A9AA /* DGCharts in Frameworks */,
+				FBFA560E2CDBD44300C2A9AA /* DGChartsDynamic in Frameworks */,
+				FBFA560A2CDBD35F00C2A9AA /* DGChartsDynamic in Frameworks */,
+				FBFA560C2CDBD44300C2A9AA /* DGCharts in Frameworks */,
+				FBFA56002CDBCF6F00C2A9AA /* DGCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +151,9 @@
 				Base,
 			);
 			mainGroup = ABBBFC852CCE8DE200CFFEFD;
+			packageReferences = (
+				FBFA55FE2CDBCF6F00C2A9AA /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = ABBBFC8F2CCE8DE200CFFEFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -393,6 +412,54 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBFA55FE2CDBCF6F00C2A9AA /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ChartsOrg/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBFA55FF2CDBCF6F00C2A9AA /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBFA55FE2CDBCF6F00C2A9AA /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		FBFA56012CDBCF6F00C2A9AA /* DGChartsDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBFA55FE2CDBCF6F00C2A9AA /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGChartsDynamic;
+		};
+		FBFA56032CDBD26A00C2A9AA /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DGCharts;
+		};
+		FBFA56052CDBD26A00C2A9AA /* DGChartsDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DGChartsDynamic;
+		};
+		FBFA56072CDBD35F00C2A9AA /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DGCharts;
+		};
+		FBFA56092CDBD35F00C2A9AA /* DGChartsDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DGChartsDynamic;
+		};
+		FBFA560B2CDBD44300C2A9AA /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DGCharts;
+		};
+		FBFA560D2CDBD44300C2A9AA /* DGChartsDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DGChartsDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		ABBBFC9A2CCE8DE200CFFEFD /* almacen_productos.xcdatamodeld */ = {
