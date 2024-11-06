@@ -262,8 +262,8 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.19607843137254902" green="0.38823529411764707" blue="0.55294117647058827" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ghs-X1-hqn">
-                                <rect key="frame" x="30" y="384" width="333" height="159"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ghs-X1-hqn">
+                                <rect key="frame" x="16" y="368.66666666666669" width="333" height="175.33333333333331"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                         </subviews>
@@ -276,6 +276,7 @@
                             <constraint firstItem="Azn-ZD-bKK" firstAttribute="trailing" secondItem="wS2-9T-K9i" secondAttribute="trailing" constant="30" id="McA-Xh-aMH"/>
                             <constraint firstItem="Azn-ZD-bKK" firstAttribute="trailing" secondItem="qvD-JU-DSl" secondAttribute="trailing" constant="30" id="T9O-7t-XlF"/>
                             <constraint firstItem="BgC-0H-nq1" firstAttribute="top" secondItem="wS2-9T-K9i" secondAttribute="bottom" constant="30" id="Ula-mH-Im4"/>
+                            <constraint firstItem="Ghs-X1-hqn" firstAttribute="leading" secondItem="vcs-97-3Q5" secondAttribute="leadingMargin" id="UzF-Kd-2hr"/>
                             <constraint firstItem="Azn-ZD-bKK" firstAttribute="trailing" secondItem="BgC-0H-nq1" secondAttribute="trailing" constant="30" id="YDB-uK-uqg"/>
                             <constraint firstItem="gH1-OT-7ez" firstAttribute="top" secondItem="qvD-JU-DSl" secondAttribute="bottom" constant="50" id="Zgp-Hs-Fo7"/>
                             <constraint firstItem="wS2-9T-K9i" firstAttribute="top" secondItem="Azn-ZD-bKK" secondAttribute="top" constant="50" id="f65-GT-TOK"/>
@@ -283,6 +284,8 @@
                             <constraint firstItem="wS2-9T-K9i" firstAttribute="leading" secondItem="Azn-ZD-bKK" secondAttribute="leading" constant="30" id="fyb-CR-4LO"/>
                             <constraint firstItem="gH1-OT-7ez" firstAttribute="leading" secondItem="Azn-ZD-bKK" secondAttribute="leading" constant="30" id="m9v-1b-yXQ"/>
                             <constraint firstItem="Azn-ZD-bKK" firstAttribute="trailing" secondItem="gH1-OT-7ez" secondAttribute="trailing" constant="30" id="swN-ry-V5A"/>
+                            <constraint firstItem="Azn-ZD-bKK" firstAttribute="bottom" secondItem="Ghs-X1-hqn" secondAttribute="bottom" constant="225" id="vwQ-u0-NXY"/>
+                            <constraint firstItem="Azn-ZD-bKK" firstAttribute="trailing" secondItem="Ghs-X1-hqn" secondAttribute="trailing" constant="44" id="za1-jB-X8u"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dashboard" image="chart.xyaxis.line" catalog="system" id="Dvt-xd-OFh"/>

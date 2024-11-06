@@ -96,7 +96,6 @@ class DashboardViewController: UIViewController {
         guard let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext else {
                 return
             }
-        
             let categories = ["Audífonos", "Sillas gamer", "Streaming", "Monitores"]
             let values = contarProductosPorCategoria(context: context, categories: categories)
             
