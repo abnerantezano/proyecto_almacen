@@ -20,6 +20,7 @@
 		FB19FD012CCFEB350084F4E2 /* AgregarProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19FD002CCFEB350084F4E2 /* AgregarProductoViewController.swift */; };
 		FB19FD032CCFEB4A0084F4E2 /* EditarProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19FD022CCFEB4A0084F4E2 /* EditarProductoViewController.swift */; };
 		FB19FD052CCFEB5C0084F4E2 /* DetalleProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB19FD042CCFEB5C0084F4E2 /* DetalleProductoViewController.swift */; };
+		FBB5E53F2CDAD3170057176E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5E53E2CDAD3170057176E /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FB19FD002CCFEB350084F4E2 /* AgregarProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarProductoViewController.swift; sourceTree = "<group>"; };
 		FB19FD022CCFEB4A0084F4E2 /* EditarProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarProductoViewController.swift; sourceTree = "<group>"; };
 		FB19FD042CCFEB5C0084F4E2 /* DetalleProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProductoViewController.swift; sourceTree = "<group>"; };
+		FBB5E53E2CDAD3170057176E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				FB19FD022CCFEB4A0084F4E2 /* EditarProductoViewController.swift */,
 				FB19FD042CCFEB5C0084F4E2 /* DetalleProductoViewController.swift */,
 				FB0D93052CD939110008B48B /* UIColor.swift */,
+				FBB5E53E2CDAD3170057176E /* TableViewCell.swift */,
 			);
 			path = almacen_productos;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				FB19FCFF2CCFEB200084F4E2 /* DashboardViewController.swift in Sources */,
 				ABBBFC962CCE8DE200CFFEFD /* ViewController.swift in Sources */,
 				ABBBFC9C2CCE8DE200CFFEFD /* almacen_productos.xcdatamodeld in Sources */,
+				FBB5E53F2CDAD3170057176E /* TableViewCell.swift in Sources */,
 				ABBBFC922CCE8DE200CFFEFD /* AppDelegate.swift in Sources */,
 				ABBBFC942CCE8DE200CFFEFD /* SceneDelegate.swift in Sources */,
 				FB19FD012CCFEB350084F4E2 /* AgregarProductoViewController.swift in Sources */,
